@@ -1,0 +1,255 @@
+ body {
+ 	font-family: 'Cairo', sans-serif;
+ 	 color: #cf6a87;
+ } 
+
+ element.style {
+    padding: 0px;
+    margin: 0px;
+    background-color: #940525;
+    font-family: arial,helvetica,sans-serif,verdana,'Open Sans';
+}
+
+ .table{
+
+ 	display: table;
+ 	width: 100%;
+ 	height: 100%;
+
+ }
+
+ .table-cell{
+ 	width: 100%;
+ 	height: 100%;
+ 	display: table-cell;
+ 	vertical-align: middle;
+ }
+ a:hover{
+ 	text-decoration: none;
+ }
+
+
+img {
+	max-width: 100%;
+}
+
+
+ .title{
+margin-bottom: 20px;
+
+ }
+ .title h1{
+
+    color: #ff97b5;
+ 	font-weight: bold;
+ }
+
+ .title .border{
+ width: 400px;
+ height: 3px;
+ background: #c44569;
+ margin: 20px auto 0px auto; 
+
+
+ }
+
+.navbar{
+	border: 0px;
+    border-radius: 0px;
+    box-shadow: 1px 1px 10px rgba(68, 67, 67, 0.34)  ; 
+    margin: 5px;
+}
+ .navbar-default {
+   background: rgba(181, 4, 76, 0.39);
+
+ }
+ .navbar-brand{
+
+ 	padding: 30px 15px; 
+ }
+ .navbar-default .navbar-brand {
+    color: #d2dae2;
+}
+.navbar-default .navbar-nav>li>a {
+    color: #d2dae2;
+}
+ .navbar-nav>li>a {
+ 	padding: 26px;
+ 	padding-bottom: 26px;
+
+ }
+
+/* Slideshow container */
+.slideshow-container {
+  max-width: 1000px;
+  position: relative;
+  margin: auto;
+}
+
+/* Hide the images by default */
+.mySlides {
+    display: none;
+}
+
+
+
+.text {
+      color: #f9a4a4;
+ 
+  font-size: 15px;
+  padding: 8px 12px;
+  position: absolute;
+  bottom: 8px;
+  width: 100%;
+  text-align: center;
+}
+
+
+
+/*Hero section*/
+
+.hero{
+background-image: url("img/ww.jpg");
+ background-repeat: no-repeat;
+    background-attachment: fixed;
+background-size: cover;
+background-position: center center;
+}
+
+.overlay{
+	width: 100%;
+    height: 100%;
+    background-color: rgba(0,0,0,0.4);
+}
+
+.welcome  {
+	height: 500px;
+}
+.welcome h1{
+	font-weight: 700;
+	color: #c44569;
+	text-shadow: 1px 1px 1px #000;
+	font-size: 70px;
+	margin-bottom: 50px; 
+}
+
+.welcome a {
+	background-color: #cf6a87;
+	color: #fff;
+	font-size: 15px;
+	padding: 15px 20px; 
+	border-radius: 5px;
+}
+
+.Em {
+
+ background-color: #fff;
+ padding: 50px;
+
+}
+/*services_sectiom*/
+
+
+.s_itme {
+ border-right: 1px solid #ddd;
+ padding: 30px;
+}
+
+.s_itme: first-child {
+border-left: 1px solid #c44569;
+
+}
+
+border-left: 1px solid #c44569;
+
+.s_item .s_icon{
+color: #c44569;
+font-size: 30px;
+margin-bottom: 20px;
+
+}
+
+.s_itme h4 {
+ color: #999;
+}
+
+.s_itme p {
+	color: #999;
+	line-height: 25px;
+
+}
+
+.about{
+
+background-image: url("img/yy.jpg") ;
+background-size: cover;
+ background-repeat: no-repeat;
+    background-attachment: fixed;
+background-position: center center;
+
+}
+
+.inner_about{
+
+	background: rgba(181, 4, 76, 0.39);
+	padding: 10px;
+	border-radius: 50px;
+	margin: 50px 0px;
+	width: 800px;
+	position: center center;
+}
+.inner_about p{
+	color: #fffefe;
+	line-height: 30px;
+    text-align: center;
+}
+.displaydb{
+	color: #fffefe;
+	width: 400px;
+	height: 800px;
+}
+.work {
+
+margin: 80px 0px; 
+
+}
+
+
+.w_itme {
+	margin-bottom: 30px;
+}
+
+
+
+/* footer */
+
+
+.footer {
+
+background: #d2dae2;
+padding: 50px 0px;
+}
+
+.footer p{
+ 
+ color: #c44569;
+ font-size: 16px;
+}
+
+.footer a{
+
+color: #b2bec3;
+margin-right: 10px;
+}
+
+.footer a:hover {
+
+color: #2d3436;
+}
+
+.footer a i {
+	font-size: 20px;
+}
+
+
+
